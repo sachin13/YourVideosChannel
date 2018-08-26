@@ -1,0 +1,2 @@
+# Referenced at E:\YourVideosChannel\app\build\intermediates\merged_manifests\debugAndroidTest\AndroidManifest.xml:9
+-keep class android.support.test.runner.AndroidJUnitRunner { <init>(...); }

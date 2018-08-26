@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app main color-->
+    <color name="colorPrimary">#464646</color>
+    <color name="colorPrimaryDark">#616060</color>
+    <color name="colorAccent">#ECA324</color>
+
+    <!--swipe down refresh animation color-->
+    <color name="colorOrange">#FF9900</color>
+    <color name="colorGreen">#009900</color>
+    <color name="colorBlue">#000099</color>
+    <color name="colorRed">#ff0015</color>
+
+    <!--tab color-->
+    <color name="colorTabIndicator">#FFFFFF</color>
+    <color name="colorTabSelectedText">#FFFFFF</color>
+    <color name="colorTabText">#000000</color>
+
+    <!--others-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#96989A</color>
+    <color name="colorDarkGrey">#4D4D4D</color>
+    <color name="colorText">#202020</color>
+    <color name="colorRipple">#C2C2C2</color>
+    <color name="colorCardView">#FFFFFF</color>
+    <color name="colorCategory">#ECA324</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorToolbarGrey">#757575</color>
+    <color name="colorLine">#DEDEDE</color>
+
+
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+    <color name="background">#e9e3dd</color>
+    <!--thema color!-->
+
+
+    <color name="red_colorPrimary">#ff0000</color>
+    <color name="red_colorPrimaryDark">#DF0000</color>
+    <color name="red_colorAccent">#F7F72D</color>
+
+    <color name="pink_colorPrimary">#e91e63</color>
+    <color name="pink_colorPrimaryDark">#CB1755</color>
+    <color name="pink_colorAccent">#2095f2</color>
+
+    <color name="darkpink_colorPrimary">#9b26af</color>
+    <color name="darkpink_colorPrimaryDark">#7a1ea1</color>
+    <color name="darkpink_colorAccent">#f34235</color>
+
+    <color name="violet_colorPrimary">#6639b6</color>
+    <color name="violet_colorPrimaryDark">#502ca7</color>
+    <color name="violet_colorAccent">#e81d62</color>
+
+    <color name="blue_colorPrimary">#3F51B5</color>
+    <color name="blue_colorPrimaryDark">#3445A2</color>
+    <color name="blue_colorAccent">#e81d62</color>
+
+    <color name="skyblue_colorPrimary">#03A9F4</color>
+    <color name="skyblue_colorPrimaryDark">#0094D7</color>
+    <color name="skyblue_colorAccent">#fec006</color>
+
+    <color name="green_colorPrimary">#4CAF50</color>
+    <color name="green_colorPrimaryDark">#419744</color>
+    <color name="green_colorAccent">#785447</color>
+    <color name="grey_colorPrimary">#9d9d9d</color>
+    <color name="grey_colorPrimaryDark">#606060</color>
+    <color name="grey_colorAccent">#f90</color>
+
+    <color name="brown_colorPrimary">#795548</color>
+    <color name="brown_colorPrimaryDark">#63453B</color>
+    <color name="brown_colorAccent">#e81d62</color>
+    <color name="colorSettings">#40000000</color>
+    <color name="colorClick">#abcdef</color>
+
+</resources>

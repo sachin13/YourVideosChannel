@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        emojicon:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        emojicon:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/sb2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            android:background="@drawable/sb1">
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messageRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow_top" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/buttonEmoji"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="4dp"
+            android:src="@drawable/smiley"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/editTextMessage"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+
+        <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="1dp"
+            android:layout_toEndOf="@+id/buttonEmoji"
+            android:layout_toLeftOf="@+id/buttonMessage"
+            android:layout_toRightOf="@+id/buttonEmoji"
+            emojicon:emojiconSize="28sp"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/buttonMessage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/editTextMessage"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:src="@android:drawable/ic_menu_send"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/drawer_recent"
+            android:icon="@drawable/home"
+            android:checked="true"
+            android:title="@string/drawer_recent" />
+
+        <item
+            android:id="@+id/drawer_category"
+            android:icon="@drawable/category"
+            android:title="@string/drawer_category" />
+
+        <item
+            android:id="@+id/drawer_favorite"
+            android:icon="@drawable/drawer_favorite"
+            android:title="@string/drawer_favorite" />
+        <item
+            android:id="@+id/drawer_setting"
+            android:icon="@drawable/drawer_setting"
+            android:checked="true"
+            android:title="@string/drawer_settings" />
+
+    </group>
+
+    <item android:title="@string/drawer_separator_name">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawer_notification2"
+                    android:icon="@drawable/notification"
+                    android:title="ضبط الاشعارات" />
+
+
+                <item
+                    android:id="@+id/drawer_rate"
+                    android:icon="@drawable/drawer_rate"
+                    android:title="@string/drawer_rate" />
+
+                <item
+                    android:id="@+id/drawer_more"
+                    android:icon="@drawable/drawer_more"
+                    android:title="@string/drawer_more" />
+
+                <item
+                    android:id="@+id/drawer_share"
+                    android:icon="@drawable/share"
+                    android:title="@string/drawer_share" />
+
+                <item
+                    android:id="@+id/drawer_about"
+                    android:icon="@drawable/drawer_setting"
+                    android:title="@string/drawer_about" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

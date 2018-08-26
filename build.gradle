@@ -1,0 +1,94 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+        jcenter()
+        google()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.google.gms:google-services:4.0.1'
+        classpath 'com.android.tools.build:gradle:3.3.0-alpha04'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.0'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'io.fabric.tools:gradle:1.25.4'
+
+
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+
+
+
+
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+
+        // If you're using a version of Gradle lower than 4.1, you must
+        // instead use:
+
+
+         maven {
+             url 'https://maven.google.com'
+
+         }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://dl.bintray.com/hani-momanii/maven"}
+    }
+}
+
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.10.1'
+    }
+}
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+
+/* IMPORTANT : Highly recommended to keep the library version
+Be careful when update dependencies, different library version may caused error */
+ext {
+    supportlib_version = '27.1.1'
+    gps_version = '11.8.0'
+    retrofit_version = '2.3.0'
+    exoplayer_version = 'r2.5.4'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+		google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

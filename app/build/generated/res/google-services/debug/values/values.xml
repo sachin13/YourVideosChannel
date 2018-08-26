@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">792274094640-s3hbi7oosbhhm0760recn5rjgrv6l2dd.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://news-620fb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">792274094640</string>
+    <string name="google_api_key" translatable="false">AIzaSyA5rGYgTMIPpBFDHQCE3AGJu77RgSSrF9c</string>
+    <string name="google_app_id" translatable="false">1:792274094640:android:b351cdeca3a7dd43</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA5rGYgTMIPpBFDHQCE3AGJu77RgSSrF9c</string>
+    <string name="google_storage_bucket" translatable="false">news-620fb.appspot.com</string>
+    <string name="project_id" translatable="false">news-620fb</string>
+</resources>

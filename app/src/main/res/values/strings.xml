@@ -1,0 +1,227 @@
+<resources>
+
+
+    <string name="ok">OK</string>
+    <string name="cancel2">Cancel</string>
+    <string name="update_available_text">A new version of the app is available. You need to update the current version.</string>
+    <string name="update">Update</string>
+    <string name="update_available_title">Update Available</string>
+
+
+    <!--application name-->
+    <string name="app_name">رواديد</string>
+    <string name="default_notification_channel_id" translatable="true">fcm_default_channel</string>
+
+
+    <string name="sendPhoto">الكاميرا</string>
+    <string name="sign_out">تسجيل خروج</string>
+    <string name="select_picture_title">الحصول على صورة من</string>
+    <string name="sendPhotoGallery">ارفاق صورة</string>
+    <string name="api_key_google_places">AIzaSyCe8LlYXSkyLGArjdexL-pyYRPGopMrMMg</string>
+    <string name="sendLocation">ارسل موقعك</string>
+    <string name="locationTo">ارسل موقعك</string>
+
+
+    <string name="error_no_yt_link">ليس رابطًا صالحًا على YouTube!</string>
+
+    <string name="controls_background_title">تشغيل صوت</string>
+    <string name="controls_popup_title">نافذة فيديو</string>
+    <string name="play_audio">Audio</string>
+    <string name="open_in_popup_mode">Open in popup mode</string>
+    <string name="msg_popup_permission">This permission is needed to\nopen in popup mode</string>
+    <string name="popup_playing_toast">Playing in popup mode</string>
+    <string name="popup_resizing_indicator_title">Resizing</string>
+    <string name="caption_none">No Captions</string>
+
+    <string name="resize_fit">Fit</string>
+    <string name="resize_fill">Fill</string>
+    <string name="resize_zoom">زوم</string>
+
+    <string name="caption_auto_generated">Auto-generated</string>
+
+    <!-- Caption Settings -->
+    <string name="caption_setting_title">Captions</string>
+    <string name="caption_setting_description">Modify player caption text scale and background styles. Requires app restart to take effect.</string>
+
+    <!-- Debug Settings -->
+    <string name="enable_leak_canary_title">Enable LeakCanary</string>
+    <string name="enable_leak_canary_summary">Memory leak monitoring may cause the app to become unresponsive when heap dumping</string>
+
+    <string name="enable_disposed_exceptions_title">Report Out-of-lifecycle Errors</string>
+    <string name="enable_disposed_exceptions_summary">Force reporting of undeliverable Rx exceptions outside of fragment or activity lifecycle after disposal</string>
+
+    <!-- Subscriptions import/export -->
+    <string name="import_export_title">Import/Export</string>
+    <string name="import_title">Import</string>
+    <string name="import_from">Import from</string>
+    <string name="export_to">Export to</string>
+
+    <string name="import_ongoing">Importing…</string>
+    <string name="export_ongoing">Exporting…</string>
+
+    <string name="import_file_title">Import file</string>
+    <string name="previous_export">Previous export</string>
+
+    <string name="subscriptions_import_unsuccessful">Could not import subscriptions</string>
+    <string name="subscriptions_export_unsuccessful">Could not export subscriptions</string>
+
+    <string name="import_youtube_instructions">Import YouTube subscriptions by downloading the export file:\n\n1. Go to this URL: %1$s\n2. Log in when asked\n3. A download should start (that\'s the export file) </string>
+    <string name="import_soundcloud_instructions">Import a SoundCloud profile by typing either the URL or your ID:\n\n1. Enable \"desktop mode\" in a web-browser (the site is not available for mobile devices)\n2. Go to this URL: %1$s\n3. Log in when asked\n4. Copy the profile URL you were redirected to.</string>
+    <string name="import_soundcloud_instructions_hint">yourID, soundcloud.com/yourid</string>
+
+    <string name="import_network_expensive_warning">Keep in mind this operation can be network expensive.\n\nDo you want to continue?</string>
+
+    <!-- Playback Parameters -->
+    <string name="playback_speed_control">Playback Speed Controls</string>
+    <string name="playback_tempo">Tempo</string>
+    <string name="playback_pitch">Pitch</string>
+    <string name="unhook_checkbox">Unhook (may cause distortion)</string>
+    <string name="playback_nightcore">Nightcore</string>
+    <string name="playback_default">Default</string>
+
+    <!-- GDPR dialog -->
+    <string name="start_accept_privacy_policy">In order to comply with the European General Data Protection Regulation (GDPR), we herby draw your attention to NewPipe\'s privacy policy. Please read it carefully.\nYou must accept it to send us the bug report.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <!-- Limit mobile data usage  -->
+    <string name="limit_data_usage_none_description">No limit</string>
+    <string name="limit_mobile_data_usage_title">Limit resolution when using mobile data</string>
+
+    <string-array name="limit_data_usage_description_list">
+        <item>@string/limit_data_usage_none_description</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+    <!--tab name-->
+    <string name="tab_recent">جديد</string>
+    <string name="tab_category">الرواديد</string>
+
+    <!--AdMob-->
+
+    <!-- Change AdMob Banner and Interstitial ID -->
+    <string name="banner_ad_unit_id">ca-app-pub-8950538233334767/1802380936</string>
+    <string name="admob_banner_id">ca-app-pub-8950538233334767/2039066538</string>
+    <string name="admob_interstitial_id">ca-app-pub-8950538233334767/3515799735</string>
+    <string name="my_ad_unit">ca-app-pub-8950538233334767/6891728482</string>
+    <string name="ad_unit_id2">ca-app-pub-8950538233334767/2039066538</string>
+
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_recent">جديد</string>
+    <string name="drawer_category">الرواديد</string>
+    <string name="drawer_favorite">المفضلة</string>
+    <string name="drawer_separator_name">آخر</string>
+    <string name="drawer_rate">تقييم</string>
+    <string name="drawer_more">المزيد من التطبيقات</string>
+    <string name="drawer_share">مشاركةالتطبيق</string>
+    <string name="drawer_about">معلومات</string>
+    <string name="drawer_settings">الضبط</string>
+    <string name="drawer_open">افتح درج التنقل</string>
+    <string name="drawer_close">إغلاق درج التنقل</string>
+
+    <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">https://play.google.com/store/apps/dev?id=8487468016019555174</string>
+    <string name="share_text">تطبيق رواديد</string>
+    <string name="name">تم الارسال من تطبيق رواديد - لتنزيل القصيدة MP3 او MP4 </string>
+    <string name="name1">رابط التطبيق المميز (رواديد) نزله الان مجاناً </string>
+
+
+    <!-- youtube -->
+    <string name="youtube_api_key">AIzaSyDQybsHtUzKU1Vt1gsFFgGaiEjYs60Jgk0</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!--app about information-->
+    <string name="about_app_name">اسم التطبيق</string>
+    <string name="about_app_copyright">الحقوق</string>
+    <string name="about_app_version">الاصدار</string>
+    <string name="about_app_email">الايميل</string>
+    <string name="about_app_rate">التقييم</string>
+    <string name="about_app_more">المزيد من التطبيقات</string>
+    <string name="about_app_privacy_policy">Terms &amp; Policies</string>
+    <string name="sub_about_app_version">الاصدار 2.5</string>
+    <string name="sub_about_app_email">sharq1@sharq1.com</string>
+    <string name="sub_about_app_copyright">Copyright &#169; 2018 roadeed Developer \n All rights reserved</string>
+    <string name="sub_about_app_rate">Give your rate and feedback</string>
+    <string name="sub_about_app_more">More apps from developer</string>
+    <string name="sub_about_app_privacy_policy">Terms &amp; Policies of Your Videos Channel</string>
+
+    <!--network & error message-->
+    <string name="network_required">مطلوب الإنترنت لتشغيل الفيديو!</string>
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">لم يتم العثور على اتصالات بالإنترنت. تحقق من اتصالك أو حاول مرة أخرى!</string>
+    <string name="no_internet_text">لا اتصال إنترنت!</string>
+    <string name="no_category_found">لا توجد فئة!</string>
+    <string name="no_post_found">إذا كنت تريد متابعة البحث ، يرجى محاولة إدخال كلمة رئيسية أخرى!</string>
+    <string name="msg_search_input">الرجاء ادخال الكلمات الرئيسية</string>
+
+    <!--favorite-->
+    <string name="favorite_add">اضافة الى المفضلة</string>
+    <string name="favorite_remove">ازالة من المفضلة</string>
+    <string name="favorite_added">تم الأضافة إلى المفضلة</string>
+    <string name="favorite_removed">تم الأزالة من المفضل</string>
+    <string name="no_favorite_found">قائمة المفضلة لديك فارغة لأنك لا تضيف أي فيديوهات في القائمة المفضلة</string>
+
+    <!--others-->
+    <string name="press_again_to_exit">اضغط مرة اخرى للخروج</string>
+    <string name="video_count_text">فيديو</string>
+    <string name="views_count">مشاهدات</string>
+    <string name="btn_retry">إعادة المحاولة</string>
+    <string name="search">البحث</string>
+    <string name="search_text">البحث&#8230;</string>
+    <string name="share">المشاركة</string>
+
+    <string name="app_update">الرابط لا يعمل</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notification_setting">الاشعارات</string>
+    <string name="save_notification_setting">حفظ الاشعارات</string>
+    <string name="save">حفظ</string>
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+
+
+    <!-- TODO: ترحيب -->
+
+    <string name="mana">قائمة الرواديد</string>
+    <string name="mana1">تضم اكثر من 80 رادود ومنشد حسيني</string>
+    <string name="mana2">تصميم جديد</string>
+    <string name="mana3">شكل جديد بمميزات حديثة </string>
+    <string name="mana4">المشاهدة و التنزيل</string>
+    <string name="mana5">يمكنك مشاهدة الفيديو و الاستماع في الخلفية و تنزيله بصيغ مختلفة</string>
+    <string name="mana6">غرفة للمحادثة</string>
+    <string name="mana7">المحادثة و الطلبات و جداول الرواديد</string>
+    <string name="mana8">الاشعارات</string>
+    <string name="mana9">يمكنك تلقي الاشعارات و التحكم بها</string>
+    <string name="cancel">cancel</string>
+    <string name="finish">finish</string>
+
+    <string name="title_activity_ytube_view">MinTubeView</string>
+    <string name="add_ytube">MinTube</string>
+
+    <string name="svg_play">M8,5v14l11,-7z</string>
+    <string name="svg_pause">M6,19h4V5H6v14zm8,-14v14h4V5h-4z</string>
+    <string name="dialog_get_permission">Permit to Draw over other apps</string>
+    <string name="string_get_permission">Allow this app to draw over other apps. This permission allows an app to display on the top of other apps you\'re using.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="repeat_type">REPEAT_TYPE</string>
+    <string name="no_of_repeats">NO_OF_REPEATS</string>
+    <string name="player_type">PLAYER_TYPE</string>
+    <string name="init">INITIALIZED</string>
+    <string name="title_activity_fullscreen_web_player">FullscreenWebPlayer</string>
+    <string name="svg_arrow_up">M413.1,327.3l-1.8-2.1l-136-156.5c-4.6-5.3-11.5-8.6-19.2-8.6c-7.7,0-14.6,3.4-19.2,8.6L101,324.9l-2.3,2.6 \tC97,330,96,333,96,336.2c0,8.7,7.4,15.8,16.6,15.8v0h286.8v0c9.2,0,16.6-7.1,16.6-15.8C416,332.9,414.9,329.8,413.1,327.3z</string>
+    <string name="FileName">SHAREDPREFERENCE_KEYFILE</string>
+    <string name="action_search">search</string>
+    <string name="search_hint">Search YouTube</string>
+    <string name="videoQuality">VIDEO_QUALITY</string>
+    <string name="finishOnEnd">FINISH_ON_END</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="count">COUNT</string>
+    <string name="failed_playback">failed_playback</string>
+    <string name="view">عرض</string>
+</resources>

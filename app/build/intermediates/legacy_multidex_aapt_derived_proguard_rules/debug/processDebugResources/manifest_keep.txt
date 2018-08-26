@@ -1,0 +1,4 @@
+# Referenced at E:\YourVideosChannel\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:168
+-keep class com.roadeed.sh.activities.DownloadFinishedReceiver { <init>(...); }
+# Referenced at E:\YourVideosChannel\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:69
+-keep class com.roadeed.sh.activities.MyApplication { <init>(...); }

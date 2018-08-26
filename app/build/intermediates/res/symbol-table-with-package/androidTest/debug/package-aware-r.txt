@@ -1,0 +1,2 @@
+com.roadeed.sh.test
+string app_name

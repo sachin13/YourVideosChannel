@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.turki-alkhateeb:materialcolorpicker-1.0.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialcolorpicker-1.0.7.aar/582b5f9543a10e0b2799d32c16833c94/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialcolorpicker-1.0.7.aar/582b5f9543a10e0b2799d32c16833c94/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.turki-alkhateeb/materialcolorpicker/1.0.7/c61b38f43ca377565aae74e4c9502202d6e09690/materialcolorpicker-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
